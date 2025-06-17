@@ -18943,8 +18943,7 @@ DRB.ShowNotice = function () {
 DRB.InsertMainBodyContent = function () {
     $("#" + DRB.DOM.MainBody.Id).html(`<div class="mainlayout col-lg-12">
             <div class="mainheader">
-                <h3>Dataverse REST Builder <span id="` + DRB.DOM.VersionSpan.Id + `"></span> <span id="` + DRB.DOM.ContextSpan.Id + `"></span></h3>
-                Created by Guido Preite <a target="_blank" href="https://www.twitter.com/crmanswers">Twitter</a> - <a target="_blank" href="https://www.linkedin.com/in/guidopreite/">LinkedIn</a> - <a target="_blank" href="https://github.com/GuidoPreite">GitHub</a> - <a target="_blank" href="https://www.crmanswers.net">Blog</a>
+                <h3>Pathway Group - Dataverse REST Builder <span id="` + DRB.DOM.VersionSpan.Id + `"></span> <span id="` + DRB.DOM.ContextSpan.Id + `"></span></h3>
             </div>
             <div class="topborder maincontent split">
                 <div id="` + DRB.DOM.Split.Menu.Id + `" style="margin-top: 10px; margin-right: 24px;">
@@ -18958,12 +18957,7 @@ DRB.InsertMainBodyContent = function () {
                 </div>
                 <div id="` + DRB.DOM.Split.Content.Id + `" style="margin-left: 10px; margin-top: 10px;">
                     <div id="` + DRB.DOM.Notice.Div.Id + `" class="notice" style="display: none;">
-                        The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
-                        <br />
-                        <br />
-                        Dataverse REST Builder is able to create, update and execute requests against the Dataverse Web API endpoint.<br />
-                        <span class="notice-red">Many of the requests generated inside this tool can modify the data if they are executed, please proceed with caution.</span>
-                        <br /><br />
+
                     </div>
                     <div id="` + DRB.DOM.MainContent.Id + `" style="display: none;"></div>
                 </div>
